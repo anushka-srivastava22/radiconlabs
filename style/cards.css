@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600&family=Roboto+Slab&display=swap');
+
 article {
     --img-scale: 1.001;
     --title-color: black;
@@ -24,7 +26,6 @@ article {
   /* basic article elements styling */
   article h2 {
     margin: 0 0 18px 0;
-    font-family: "Bebas Neue", cursive;
     font-size: 1.9rem;
     letter-spacing: 0.06em;
     color: var(--title-color);
@@ -92,7 +93,6 @@ article {
   
   body {
     
-    font-family: 'Times New Roman', Times, serif;
     font-size: 1.2rem;
     line-height: 1.6rem;
     min-height: 100vh;

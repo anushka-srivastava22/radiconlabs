@@ -26,9 +26,7 @@
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <!---->
 <style>
-    * {
-        font-family: 'Times New Roman', Times, serif;
-    }
+       @import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600&family=Roboto+Slab&display=swap'); 
 </style>
         
     </head>
@@ -38,7 +36,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark ">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
-                    <img  src="./style/imgs/logo.png" alt="" width="100" />
+                    <img  src="./style/imgs/logo.png" alt="" width="130" />
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -125,7 +123,7 @@
                     FLUOXETINE/ FLUXICON IP-20 <br> 20mg - 30 capsules
                   </p>
                   <div class="w3-container">
-                    <a href="#" class="read-more" id="myBtn">
+                    <a href="#" class="read-more" href="./productspages/capsules/p1.html">
                         Read more <span class="sr-only">about this is some title</span>
                    
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
@@ -135,38 +133,7 @@
                 </div>
               </div>
             </article>
-            <div id="myModal" class="modal">
-
-                <!-- Modal content -->
-                <div class="modal-content">
-                  <span class="close">&times;</span>
-                  <div class="container" >
-                    <div style="display: flex; justify-content: space-around;">
-                        <img src="./style/imgs/1.jpg" style="width: 20%; height: 15%;">
-                        <p style="margin-left: 5%;"><b>FLUOXETINE/ FLUXICON IP-20</b><br>
-                            <b>Description</b>:<br>
-                            White coloured, elongated, biconvex film coated tablets <br>packed in Alu-Alu strips, enclosed in carton box.<br>
-                            <b>Composition:</b><br>
-                            Each film coated tablet contains:<br>
-                            Azicon-500 Alu-Alu strips, enclosed in carton box.</p>
-                    </div>
-                    <div style="margin-top: 5%;">
-                        <p><b>Mechanism of Action:</b><br>
-                            <b>Nimesulide</b> is a non-steroidal anti-inflammatory drug (NSAID). It works by blocking the release of certain chemical messengers that cause pain and inflammation (redness and swelling).
-                            <br>
-                            <b>Ambroxol Hydrochloride</b> is a Mucolytic medication. It thins and loosens mucus (phlegm) in the nose, windpipe and lungs making it easier to cough out.
-                            <br>
-                            <b>Cetirizine Hydrochloride</b>  a second generation (Non-sedating) antihistaminic drug which antagonizes the H1 receptors. It treats allergy symptoms such as itching, swelling, and rashes by blocking the effects of a chemical messenger (histamine) in the body.
-                            <br>
-                            <b>Phenylephrine Hydrochloride</b>  is a decongestant. It works by narrowing the small blood vessels which provides temporary relief from inflammation (redness and swelling) and discomfort. 
-                            <br>
-                            <b>Indication:</b> 
-                            Primarily used to treat fever, body pain, severe cold/allergic conditions, runny nose and nasal congestion.</p>
-                    </div>
-                  </div>
-                </div>
-              
-              </div>
+            
               
             <article>
           
@@ -188,8 +155,9 @@
                 </div>
               </div>
             </article>
+            
             <article>
-          
+              
               <div class="article-wrapper">
                 <figure>
                   <img src="./style/imgs/5.jpg" alt="" />
@@ -211,11 +179,11 @@
           </section>
         
 
-        <div class="mt-5 pt-5 pb-5 footer">
-            <div class="container">
+        <div class="mt-5 pt-5 pb-5 footer" style="background-color: gray;">
+            <div class="container" >
                 <div class="row">
                 <div class="col-lg-5 col-xs-12 about-company">
-                    <img src="./style/imgs/logo.png" style="width:100;">
+                    <img src="./style/imgs/logo.png" style="width:120;">
                     <p class="pr-5 text-white-50">Radicon is a specialty pharmaceutical company incorporated in the year 2007 by Late Mr. Rakesh Kumar Khaneja whose passion toward this fuelled the company's growth....  </p>
               
             </div>
@@ -254,32 +222,5 @@
             </div>
         </div>
     </body>
-    <script>
-        // Get the modal
-        var modal = document.getElementById("myModal");
-        
-        // Get the button that opens the modal
-        var btn = document.getElementById("myBtn");
-        
-        // Get the <span> element that closes the modal
-        var span = document.getElementsByClassName("close")[0];
-        
-        // When the user clicks the button, open the modal 
-        btn.onclick = function() {
-          modal.style.display = "block";
-        }
-        
-        // When the user clicks on <span> (x), close the modal
-        span.onclick = function() {
-          modal.style.display = "none";
-        }
-        
-        // When the user clicks anywhere outside of the modal, close it
-        window.onclick = function(event) {
-          if (event.target == modal) {
-            modal.style.display = "none";
-          }
-        }
-    </script>
         
 </html>
