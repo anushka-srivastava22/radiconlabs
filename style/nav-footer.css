@@ -7,7 +7,7 @@ body {
 }
 
 .navbar.navbar-dark {
-background-color: rgb(228, 228, 228); /* Set the background color to white */
+  background-color: rgb(146, 138, 138);  /* Set the background color to white */
 }
 .home-social-icon{
 width: max-content;
@@ -21,7 +21,7 @@ color: var(--skin-color);
 transform: scale(1.05);
 }
 .navbar.navbar-dark .navbar-nav .nav-link {
-color: black;
+color: white;
 text-transform: capitalize; 
 font-size: 18px;
 font-family: 'Poppins san serif';
