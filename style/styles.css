@@ -1,61 +1,12 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600&family=Roboto+Slab&display=swap');
-.navbar.navbar-dark {
-    background-color: rgb(228, 228, 228); /* Set the background color to white */
-}
-.home-social-icon{
-    width: max-content;
-    margin-bottom: var(--mb-2);
-    font-size: 1.5rem;
-    margin-left:10px;
-    margin-top: 15px;
-    color: var(--skin-color);
-}
-.home .home-social-icon:hover {
-    transform: scale(1.05);
-}
-.navbar.navbar-dark .navbar-nav .nav-link {
-    color: black;
-    text-transform: capitalize; 
-    font-size: 18px;
-    
+* {
+    font-family: 'Poppins';
 }
 
-.footer{
-    background: #193252;
-    color:white;
-    
-    .links{
-      ul {list-style-type: none;}
-      li a{
-        color: white;
-        transition: color .2s;
-        
-      }
-      li a:hover {
-       
-          text-decoration:none;
-          color:rgb(230, 4, 4);
-        
-      }
-    }  
-    .about-company{
-      i{font-size: 25px;}
-      a{
-        color:white;
-        transition: color .2s;
-        &:hover{color:rgb(230, 4, 4)}
-      }
-    } 
-    .location{
-      i{font-size: 18px;}
-    }
-    .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
-  }
   .counter{
     color: #F14997;
     background: linear-gradient(to right bottom,#fff 50%, #f9f9f9 51%);
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Poppins';
     text-align: center;
     width: 200px;
     padding: 20px 0 0;
@@ -88,4 +39,7 @@
 
 @media screen and (max-width:990px){
     .counter{ margin-bottom: 40px; }
+}
+* {
+    font-family: 'Poppins';
 }
